@@ -1,0 +1,17 @@
+<div style="text-align:center">
+  <h1 [ngClass]="'one'">
+    Routing Application
+  </h1>
+</div>
+
+<nav>
+
+  <a routerLink="/employees" routerLinkActive="active"><button [ngClass]="'two'">Employee(Get)</button></a>
+
+	<a routerLink="/departments" routerLinkActive="active"><button [ngClass]="'two'">Department(Post)</button></a> 
+
+  <a routerLink="/home" routerLinkActive="active"><button [ngClass]="'two'">Home(Delete)</button></a>
+  
+</nav>
+
+<router-outlet></router-outlet>
