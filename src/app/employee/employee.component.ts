@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { UserService } from '../service/user.service';
 
-
 @Component({
   selector: 'app-employee',
   templateUrl: './employee.component.html',
@@ -24,7 +23,5 @@ export class EmployeeComponent implements OnInit {
       }
     );
   }
-
-
 }
 

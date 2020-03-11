@@ -10,7 +10,7 @@ import {Posts} from '../classes/posts'
 })
 export class DepartmentComponent implements OnInit {
   constructor(private userService:UserService) { }
-  objPosts:Posts;
+  objPosts:Posts[];
 
   ngOnInit() {
     var opost = new Posts();
